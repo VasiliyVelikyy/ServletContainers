@@ -1,6 +1,5 @@
 package CRUD.ru.netology.service;
 
-import CRUD.ru.netology.exception.NotFoundException;
 import CRUD.ru.netology.model.Post;
 import CRUD.ru.netology.repository.PostRepository;
 
@@ -18,7 +17,7 @@ public class PostService {
     }
 
     public Post getById(long id) {
-        return repository.getById(id).orElseThrow(NotFoundException::new);
+        return repository.getById(id);
     }
 
     public Post save(Post post) {
