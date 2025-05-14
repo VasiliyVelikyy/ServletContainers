@@ -9,7 +9,6 @@
     <servlet>
         <servlet-name>main</servlet-name>
         <servlet-class>CRUD.ru.netology.servlet.MainServlet</servlet-class>
-        <load-on-startup>1</load-on-startup>
     </servlet>
 
     <!-- mapping - привязка к определённому URL-->

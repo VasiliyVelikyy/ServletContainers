@@ -21,26 +21,26 @@ public class PostController {
 
     public void all(HttpServletResponse response) throws IOException {
         response.setContentType(APPLICATION_JSON);
-        final var data = service.all();
+        final java.util.Collection<Post> data = service.all();
         response.getWriter().print(gson.toJson(data));
     }
 
     public void getById(long id, HttpServletResponse response) throws IOException, NotFoundException {
         response.setContentType(APPLICATION_JSON);
-        final var post = service.getById(id);
+        final Post post = service.getById(id);
         response.getWriter().print(gson.toJson(post));
     }
 
     public void save(Reader body, HttpServletResponse response) throws IOException {
         response.setContentType(APPLICATION_JSON);
-        final var post = gson.fromJson(body, Post.class);
-        final var data = service.save(post);
+        final Post post = gson.fromJson(body, Post.class);
+        final Post data = service.save(post);
         response.getWriter().print(gson.toJson(data));
     }
 
     public void removeById(long id, HttpServletResponse response) throws IOException {
         response.setContentType(APPLICATION_JSON);
-        final var data = service.getById(id);
+        final Post data = service.getById(id);
         service.removeById(id);
         response.getWriter().print(gson.toJson(data));
     }
