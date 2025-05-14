@@ -9,6 +9,8 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.atomic.AtomicLong;
 
+import static java.rmi.server.LogStream.log;
+
 // Stub
 public class PostRepository {
     private final ConcurrentMap<Long, Post> allPosts;
@@ -36,7 +38,7 @@ public class PostRepository {
         } else {
             return allPosts.compute(savePost.getId(), (id, existingPost) -> {
                 if (existingPost == null) {
-                    throw new NotFoundException("Post with id " + id + " not found");
+                    log("Post with id " + id + " not found");
                 }
                 return new Post(id, savePost.getContent()); // Неизменяемость
             });
