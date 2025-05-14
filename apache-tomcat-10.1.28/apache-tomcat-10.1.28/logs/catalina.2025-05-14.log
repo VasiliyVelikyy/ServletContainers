@@ -1,0 +1,701 @@
+14-May-2025 18:16:22.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.28
+14-May-2025 18:16:22.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Aug 2 2024 15:14:43 UTC
+14-May-2025 18:16:22.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.28.0
+14-May-2025 18:16:22.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+14-May-2025 18:16:22.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+14-May-2025 18:16:22.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+14-May-2025 18:16:22.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+14-May-2025 18:16:22.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            17.0.12+8-LTS-286
+14-May-2025 18:16:22.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+14-May-2025 18:16:22.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:16:22.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:16:22.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\conf\logging.properties
+14-May-2025 18:16:22.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-May-2025 18:16:22.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-May-2025 18:16:22.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-May-2025 18:16:22.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-May-2025 18:16:22.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-May-2025 18:16:22.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-May-2025 18:16:22.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-May-2025 18:16:22.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-May-2025 18:16:22.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:16:22.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:16:22.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\temp
+14-May-2025 18:16:22.684 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-17\bin;E:\temp\dbhomeXE\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;E:\Gradle\gradle-7.4.2\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Pandoc\;C:\Users\Vasiliy\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\bin;;E:\Gradle\gradle-7.4.2\bin;C:\Program Files\JetBrains\DataGrip 2022.1.5\bin;;C:\Users\Vasiliy\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;;.]
+14-May-2025 18:16:22.931 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:16:22.962 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [607] milliseconds
+14-May-2025 18:16:23.026 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-May-2025 18:16:23.026 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+14-May-2025 18:16:23.041 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\docs]
+14-May-2025 18:16:23.401 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:16:23.503 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\docs] has finished in [460] ms
+14-May-2025 18:16:23.504 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\examples]
+14-May-2025 18:16:26.012 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:16:26.252 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\examples] has finished in [2 748] ms
+14-May-2025 18:16:26.253 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\host-manager]
+14-May-2025 18:16:26.307 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:16:26.315 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\host-manager] has finished in [63] ms
+14-May-2025 18:16:26.316 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\manager]
+14-May-2025 18:16:26.373 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:16:26.377 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\manager] has finished in [60] ms
+14-May-2025 18:16:26.377 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\ROOT]
+14-May-2025 18:16:26.585 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:16:26.589 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\ROOT] has finished in [212] ms
+14-May-2025 18:16:26.593 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:16:26.825 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3862] milliseconds
+14-May-2025 18:18:17.668 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-May-2025 18:18:17.669 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:18:17.816 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-May-2025 18:18:17.839 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:18:17.845 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:19:13.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.28
+14-May-2025 18:19:13.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Aug 2 2024 15:14:43 UTC
+14-May-2025 18:19:13.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.28.0
+14-May-2025 18:19:13.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+14-May-2025 18:19:13.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+14-May-2025 18:19:13.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+14-May-2025 18:19:13.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+14-May-2025 18:19:13.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            17.0.12+8-LTS-286
+14-May-2025 18:19:13.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+14-May-2025 18:19:13.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:19:13.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:19:13.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\conf\logging.properties
+14-May-2025 18:19:13.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-May-2025 18:19:13.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-May-2025 18:19:13.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-May-2025 18:19:13.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-May-2025 18:19:13.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-May-2025 18:19:13.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-May-2025 18:19:13.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-May-2025 18:19:13.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-May-2025 18:19:13.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:19:13.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:19:13.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\temp
+14-May-2025 18:19:13.324 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-17\bin;E:\temp\dbhomeXE\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;E:\Gradle\gradle-7.4.2\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Pandoc\;C:\Users\Vasiliy\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\bin;;E:\Gradle\gradle-7.4.2\bin;C:\Program Files\JetBrains\DataGrip 2022.1.5\bin;;C:\Users\Vasiliy\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;;.]
+14-May-2025 18:19:13.543 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:19:13.567 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [451] milliseconds
+14-May-2025 18:19:13.624 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-May-2025 18:19:13.624 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+14-May-2025 18:19:13.649 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\2.1.ServletContainers-1.0-SNAPSHOT.war]
+14-May-2025 18:19:14.091 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:19:14.168 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\2.1.ServletContainers-1.0-SNAPSHOT.war] has finished in [517] ms
+14-May-2025 18:19:14.169 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\docs]
+14-May-2025 18:19:14.223 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:19:14.227 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\docs] has finished in [58] ms
+14-May-2025 18:19:14.228 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\examples]
+14-May-2025 18:19:14.613 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:19:14.694 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\examples] has finished in [466] ms
+14-May-2025 18:19:14.695 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\host-manager]
+14-May-2025 18:19:14.756 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:19:14.767 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\host-manager] has finished in [72] ms
+14-May-2025 18:19:14.768 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\manager]
+14-May-2025 18:19:14.824 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:19:14.828 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\manager] has finished in [60] ms
+14-May-2025 18:19:14.829 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\ROOT]
+14-May-2025 18:19:14.881 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:19:14.885 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\ROOT] has finished in [56] ms
+14-May-2025 18:19:14.892 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:19:14.940 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1372] milliseconds
+14-May-2025 18:20:34.983 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/2.1.ServletContainers-1.0-SNAPSHOT]
+14-May-2025 18:20:34.991 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-May-2025 18:20:34.992 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:20:35.010 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\test.war]
+14-May-2025 18:20:35.162 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-May-2025 18:20:35.170 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:20:35.174 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\test.war] has finished in [163] ms
+14-May-2025 18:20:35.190 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:20:35.204 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:20:37.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.28
+14-May-2025 18:20:37.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Aug 2 2024 15:14:43 UTC
+14-May-2025 18:20:37.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.28.0
+14-May-2025 18:20:37.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+14-May-2025 18:20:37.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+14-May-2025 18:20:37.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+14-May-2025 18:20:37.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+14-May-2025 18:20:37.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            17.0.12+8-LTS-286
+14-May-2025 18:20:37.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+14-May-2025 18:20:37.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:20:37.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:20:37.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\conf\logging.properties
+14-May-2025 18:20:37.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-May-2025 18:20:37.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-May-2025 18:20:37.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-May-2025 18:20:37.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-May-2025 18:20:37.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-May-2025 18:20:37.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-May-2025 18:20:37.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-May-2025 18:20:37.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-May-2025 18:20:37.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:20:37.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:20:37.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\temp
+14-May-2025 18:20:37.491 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-17\bin;E:\temp\dbhomeXE\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;E:\Gradle\gradle-7.4.2\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Pandoc\;C:\Users\Vasiliy\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\bin;;E:\Gradle\gradle-7.4.2\bin;C:\Program Files\JetBrains\DataGrip 2022.1.5\bin;;C:\Users\Vasiliy\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;;.]
+14-May-2025 18:20:37.705 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:20:37.731 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [460] milliseconds
+14-May-2025 18:20:37.778 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-May-2025 18:20:37.778 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+14-May-2025 18:20:37.800 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\test.war]
+14-May-2025 18:20:38.244 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:20:38.324 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\test.war] has finished in [522] ms
+14-May-2025 18:20:38.326 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\docs]
+14-May-2025 18:20:38.378 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:20:38.382 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\docs] has finished in [57] ms
+14-May-2025 18:20:38.383 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\examples]
+14-May-2025 18:20:38.731 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:20:38.831 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\examples] has finished in [448] ms
+14-May-2025 18:20:38.831 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\host-manager]
+14-May-2025 18:20:38.888 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:20:38.899 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\host-manager] has finished in [68] ms
+14-May-2025 18:20:38.899 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\manager]
+14-May-2025 18:20:38.958 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:20:38.961 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\manager] has finished in [62] ms
+14-May-2025 18:20:38.962 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\ROOT]
+14-May-2025 18:20:39.010 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:20:39.014 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\ROOT] has finished in [52] ms
+14-May-2025 18:20:39.020 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:20:39.067 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1335] milliseconds
+14-May-2025 18:27:39.443 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/test]
+14-May-2025 18:27:39.472 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\api.war]
+14-May-2025 18:27:39.612 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:27:39.616 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\api.war] has finished in [144] ms
+14-May-2025 18:27:43.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.28
+14-May-2025 18:27:43.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Aug 2 2024 15:14:43 UTC
+14-May-2025 18:27:43.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.28.0
+14-May-2025 18:27:43.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+14-May-2025 18:27:43.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+14-May-2025 18:27:43.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+14-May-2025 18:27:43.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+14-May-2025 18:27:43.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            17.0.12+8-LTS-286
+14-May-2025 18:27:43.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+14-May-2025 18:27:43.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:27:43.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:27:43.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\conf\logging.properties
+14-May-2025 18:27:43.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-May-2025 18:27:43.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-May-2025 18:27:43.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-May-2025 18:27:43.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-May-2025 18:27:43.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-May-2025 18:27:43.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-May-2025 18:27:43.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-May-2025 18:27:43.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-May-2025 18:27:43.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:27:43.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:27:43.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\temp
+14-May-2025 18:27:43.099 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-17\bin;E:\temp\dbhomeXE\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;E:\Gradle\gradle-7.4.2\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Pandoc\;C:\Users\Vasiliy\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\bin;;E:\Gradle\gradle-7.4.2\bin;C:\Program Files\JetBrains\DataGrip 2022.1.5\bin;;C:\Users\Vasiliy\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;;.]
+14-May-2025 18:27:43.335 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:27:43.353 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Ошибка инициализации компонента [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1030)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:961)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:708)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:731)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:239)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:194)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1304)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1317)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:632)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:79)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1028)
+		... 13 more
+14-May-2025 18:27:43.354 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [522] milliseconds
+14-May-2025 18:27:43.407 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-May-2025 18:27:43.407 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+14-May-2025 18:27:43.430 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\api.war]
+14-May-2025 18:27:43.854 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:27:43.941 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\api.war] has finished in [508] ms
+14-May-2025 18:27:43.942 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\docs]
+14-May-2025 18:27:44.004 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:27:44.007 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\docs] has finished in [66] ms
+14-May-2025 18:27:44.008 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\examples]
+14-May-2025 18:27:44.397 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:27:44.469 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\examples] has finished in [461] ms
+14-May-2025 18:27:44.470 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\host-manager]
+14-May-2025 18:27:44.531 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:27:44.541 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\host-manager] has finished in [71] ms
+14-May-2025 18:27:44.542 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\manager]
+14-May-2025 18:27:44.602 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:27:44.606 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\manager] has finished in [64] ms
+14-May-2025 18:27:44.606 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\ROOT]
+14-May-2025 18:27:44.653 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:27:44.656 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\ROOT] has finished in [49] ms
+14-May-2025 18:27:44.662 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1306] milliseconds
+14-May-2025 18:27:45.298 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:537)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:847)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+14-May-2025 18:27:45.299 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:27:45.332 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-May-2025 18:27:45.351 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:27:45.352 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:27:53.467 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-May-2025 18:27:53.468 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:27:53.651 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-May-2025 18:27:53.668 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:27:53.690 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:27:57.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.28
+14-May-2025 18:27:57.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Aug 2 2024 15:14:43 UTC
+14-May-2025 18:27:57.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.28.0
+14-May-2025 18:27:57.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+14-May-2025 18:27:57.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+14-May-2025 18:27:57.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+14-May-2025 18:27:57.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+14-May-2025 18:27:57.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            17.0.12+8-LTS-286
+14-May-2025 18:27:57.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+14-May-2025 18:27:57.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:27:57.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:27:57.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\conf\logging.properties
+14-May-2025 18:27:57.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-May-2025 18:27:57.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-May-2025 18:27:57.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-May-2025 18:27:57.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-May-2025 18:27:57.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-May-2025 18:27:57.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-May-2025 18:27:57.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-May-2025 18:27:57.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-May-2025 18:27:57.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:27:57.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:27:57.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\temp
+14-May-2025 18:27:57.282 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-17\bin;E:\temp\dbhomeXE\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;E:\Gradle\gradle-7.4.2\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Pandoc\;C:\Users\Vasiliy\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\bin;;E:\Gradle\gradle-7.4.2\bin;C:\Program Files\JetBrains\DataGrip 2022.1.5\bin;;C:\Users\Vasiliy\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;;.]
+14-May-2025 18:27:57.505 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:27:57.534 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [473] milliseconds
+14-May-2025 18:27:57.596 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-May-2025 18:27:57.596 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+14-May-2025 18:27:57.621 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\api.war]
+14-May-2025 18:27:58.055 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:27:58.137 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\api.war] has finished in [514] ms
+14-May-2025 18:27:58.139 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\docs]
+14-May-2025 18:27:58.194 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:27:58.198 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\docs] has finished in [59] ms
+14-May-2025 18:27:58.199 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\examples]
+14-May-2025 18:27:58.607 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:27:58.690 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\examples] has finished in [490] ms
+14-May-2025 18:27:58.690 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\host-manager]
+14-May-2025 18:27:58.752 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:27:58.761 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\host-manager] has finished in [71] ms
+14-May-2025 18:27:58.762 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\manager]
+14-May-2025 18:27:58.821 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:27:58.824 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\manager] has finished in [62] ms
+14-May-2025 18:27:58.825 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\ROOT]
+14-May-2025 18:27:58.869 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:27:58.874 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\ROOT] has finished in [49] ms
+14-May-2025 18:27:58.882 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:27:58.934 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1399] milliseconds
+14-May-2025 18:32:20.467 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-May-2025 18:32:20.468 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:32:20.621 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-May-2025 18:32:20.640 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:32:20.651 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:33:50.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.28
+14-May-2025 18:33:50.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Aug 2 2024 15:14:43 UTC
+14-May-2025 18:33:50.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.28.0
+14-May-2025 18:33:50.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+14-May-2025 18:33:50.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+14-May-2025 18:33:50.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+14-May-2025 18:33:50.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+14-May-2025 18:33:50.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            17.0.12+8-LTS-286
+14-May-2025 18:33:50.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+14-May-2025 18:33:50.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:33:50.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:33:50.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\conf\logging.properties
+14-May-2025 18:33:50.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-May-2025 18:33:50.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-May-2025 18:33:50.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-May-2025 18:33:50.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-May-2025 18:33:50.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-May-2025 18:33:50.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-May-2025 18:33:50.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-May-2025 18:33:50.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-May-2025 18:33:50.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:33:50.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:33:50.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\temp
+14-May-2025 18:33:50.977 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-17\bin;E:\temp\dbhomeXE\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;E:\Gradle\gradle-7.4.2\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Pandoc\;C:\Users\Vasiliy\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\bin;;E:\Gradle\gradle-7.4.2\bin;C:\Program Files\JetBrains\DataGrip 2022.1.5\bin;;C:\Users\Vasiliy\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;;.]
+14-May-2025 18:33:51.203 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:33:51.228 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [478] milliseconds
+14-May-2025 18:33:51.290 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-May-2025 18:33:51.290 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+14-May-2025 18:33:51.311 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\api.war]
+14-May-2025 18:33:51.774 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:33:51.855 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\api.war] has finished in [542] ms
+14-May-2025 18:33:51.856 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\docs]
+14-May-2025 18:33:51.911 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:33:51.915 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\docs] has finished in [59] ms
+14-May-2025 18:33:51.915 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\examples]
+14-May-2025 18:33:52.278 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:33:52.352 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\examples] has finished in [437] ms
+14-May-2025 18:33:52.353 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\host-manager]
+14-May-2025 18:33:52.412 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:33:52.422 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\host-manager] has finished in [69] ms
+14-May-2025 18:33:52.422 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\manager]
+14-May-2025 18:33:52.476 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:33:52.480 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\manager] has finished in [58] ms
+14-May-2025 18:33:52.481 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\ROOT]
+14-May-2025 18:33:52.525 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:33:52.529 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\ROOT] has finished in [49] ms
+14-May-2025 18:33:52.536 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:33:52.580 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1351] milliseconds
+14-May-2025 18:37:42.777 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/api]
+14-May-2025 18:38:02.839 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\2.1.ServletContainers-1.0-SNAPSHOT.war]
+14-May-2025 18:38:02.992 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:38:02.996 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\2.1.ServletContainers-1.0-SNAPSHOT.war] has finished in [157] ms
+14-May-2025 18:38:06.047 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-May-2025 18:38:06.048 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:38:06.204 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-May-2025 18:38:06.217 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:38:06.242 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:38:24.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.28
+14-May-2025 18:38:24.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Aug 2 2024 15:14:43 UTC
+14-May-2025 18:38:24.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.28.0
+14-May-2025 18:38:24.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+14-May-2025 18:38:24.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+14-May-2025 18:38:24.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+14-May-2025 18:38:24.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+14-May-2025 18:38:24.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            17.0.12+8-LTS-286
+14-May-2025 18:38:24.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+14-May-2025 18:38:24.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:38:24.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:38:24.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\conf\logging.properties
+14-May-2025 18:38:24.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-May-2025 18:38:24.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-May-2025 18:38:24.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-May-2025 18:38:24.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-May-2025 18:38:24.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-May-2025 18:38:24.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-May-2025 18:38:24.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-May-2025 18:38:24.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-May-2025 18:38:24.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:38:24.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:38:24.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\temp
+14-May-2025 18:38:24.559 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-17\bin;E:\temp\dbhomeXE\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;E:\Gradle\gradle-7.4.2\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Pandoc\;C:\Users\Vasiliy\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\bin;;E:\Gradle\gradle-7.4.2\bin;C:\Program Files\JetBrains\DataGrip 2022.1.5\bin;;C:\Users\Vasiliy\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;;.]
+14-May-2025 18:38:24.780 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:38:24.805 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [468] milliseconds
+14-May-2025 18:38:24.863 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-May-2025 18:38:24.864 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+14-May-2025 18:38:24.886 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\api.war]
+14-May-2025 18:38:25.360 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:38:25.440 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\api.war] has finished in [552] ms
+14-May-2025 18:38:25.441 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\docs]
+14-May-2025 18:38:25.498 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:38:25.502 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\docs] has finished in [60] ms
+14-May-2025 18:38:25.502 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\examples]
+14-May-2025 18:38:25.905 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:38:26.000 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\examples] has finished in [498] ms
+14-May-2025 18:38:26.001 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\host-manager]
+14-May-2025 18:38:26.079 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:38:26.092 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\host-manager] has finished in [90] ms
+14-May-2025 18:38:26.092 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\manager]
+14-May-2025 18:38:26.154 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:38:26.159 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\manager] has finished in [67] ms
+14-May-2025 18:38:26.160 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\ROOT]
+14-May-2025 18:38:26.216 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:38:26.220 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\ROOT] has finished in [60] ms
+14-May-2025 18:38:26.227 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:38:26.277 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1470] milliseconds
+14-May-2025 18:46:22.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.28
+14-May-2025 18:46:22.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Aug 2 2024 15:14:43 UTC
+14-May-2025 18:46:22.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.28.0
+14-May-2025 18:46:22.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+14-May-2025 18:46:22.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+14-May-2025 18:46:22.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+14-May-2025 18:46:22.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+14-May-2025 18:46:22.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            17.0.12+8-LTS-286
+14-May-2025 18:46:22.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+14-May-2025 18:46:22.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:46:22.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:46:22.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\conf\logging.properties
+14-May-2025 18:46:22.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-May-2025 18:46:22.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-May-2025 18:46:22.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-May-2025 18:46:22.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-May-2025 18:46:22.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-May-2025 18:46:22.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-May-2025 18:46:22.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-May-2025 18:46:22.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-May-2025 18:46:22.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:46:22.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:46:22.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\temp
+14-May-2025 18:46:22.477 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-17\bin;E:\temp\dbhomeXE\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;E:\Gradle\gradle-7.4.2\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Pandoc\;C:\Users\Vasiliy\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\bin;;E:\Gradle\gradle-7.4.2\bin;C:\Program Files\JetBrains\DataGrip 2022.1.5\bin;;C:\Users\Vasiliy\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;;.]
+14-May-2025 18:46:22.718 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:46:22.736 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Ошибка инициализации компонента [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1030)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:961)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:708)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:731)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:239)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:194)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1304)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1317)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:632)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:79)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1028)
+		... 13 more
+14-May-2025 18:46:22.738 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [522] milliseconds
+14-May-2025 18:46:22.797 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-May-2025 18:46:22.798 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+14-May-2025 18:46:22.822 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\api.war]
+14-May-2025 18:46:23.265 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:46:23.349 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\api.war] has finished in [525] ms
+14-May-2025 18:46:23.351 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\docs]
+14-May-2025 18:46:23.409 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:46:23.414 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\docs] has finished in [63] ms
+14-May-2025 18:46:23.414 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\examples]
+14-May-2025 18:46:23.802 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:46:23.869 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\examples] has finished in [455] ms
+14-May-2025 18:46:23.870 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\host-manager]
+14-May-2025 18:46:23.929 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:46:23.940 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\host-manager] has finished in [70] ms
+14-May-2025 18:46:23.941 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\manager]
+14-May-2025 18:46:24.000 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:46:24.005 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\manager] has finished in [63] ms
+14-May-2025 18:46:24.005 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\ROOT]
+14-May-2025 18:46:24.052 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:46:24.056 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\ROOT] has finished in [50] ms
+14-May-2025 18:46:24.062 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1324] milliseconds
+14-May-2025 18:46:24.110 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:537)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:847)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+14-May-2025 18:46:24.111 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:46:24.113 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-May-2025 18:46:24.141 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:46:24.142 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:46:28.721 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-May-2025 18:46:28.722 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:46:28.872 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-May-2025 18:46:28.892 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:46:28.906 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:51:52.612 SEVERE [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:8005] (base port [8005] and offset [0]). Tomcat may not be running.
+14-May-2025 18:51:52.632 SEVERE [main] org.apache.catalina.startup.Catalina.stopServer Error stopping Catalina
+	java.net.ConnectException: Connection refused: connect
+		at java.base/sun.nio.ch.Net.connect0(Native Method)
+		at java.base/sun.nio.ch.Net.connect(Net.java:579)
+		at java.base/sun.nio.ch.Net.connect(Net.java:568)
+		at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:593)
+		at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+		at java.base/java.net.Socket.connect(Socket.java:633)
+		at java.base/java.net.Socket.connect(Socket.java:583)
+		at java.base/java.net.Socket.<init>(Socket.java:507)
+		at java.base/java.net.Socket.<init>(Socket.java:287)
+		at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:653)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:393)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+14-May-2025 18:52:09.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.28
+14-May-2025 18:52:09.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Aug 2 2024 15:14:43 UTC
+14-May-2025 18:52:09.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.28.0
+14-May-2025 18:52:09.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+14-May-2025 18:52:09.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+14-May-2025 18:52:09.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+14-May-2025 18:52:09.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+14-May-2025 18:52:09.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            17.0.12+8-LTS-286
+14-May-2025 18:52:09.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+14-May-2025 18:52:09.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:52:09.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:52:09.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\conf\logging.properties
+14-May-2025 18:52:09.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-May-2025 18:52:09.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-May-2025 18:52:09.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-May-2025 18:52:09.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-May-2025 18:52:09.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-May-2025 18:52:09.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-May-2025 18:52:09.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-May-2025 18:52:09.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-May-2025 18:52:09.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:52:09.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:52:09.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\temp
+14-May-2025 18:52:09.056 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-17\bin;E:\temp\dbhomeXE\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;E:\Gradle\gradle-7.4.2\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Pandoc\;C:\Users\Vasiliy\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\bin;;E:\Gradle\gradle-7.4.2\bin;C:\Program Files\JetBrains\DataGrip 2022.1.5\bin;;C:\Users\Vasiliy\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;;.]
+14-May-2025 18:52:09.324 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:52:09.354 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [555] milliseconds
+14-May-2025 18:52:09.442 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-May-2025 18:52:09.442 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+14-May-2025 18:52:09.472 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\api.war]
+14-May-2025 18:52:09.508 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\api] was found with a last modified time that did not match the associated WAR. It will be deleted.
+14-May-2025 18:52:10.017 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:52:10.113 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\api.war] has finished in [638] ms
+14-May-2025 18:52:10.114 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\docs]
+14-May-2025 18:52:10.180 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:52:10.184 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\docs] has finished in [69] ms
+14-May-2025 18:52:10.184 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\examples]
+14-May-2025 18:52:10.622 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:52:10.706 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\examples] has finished in [522] ms
+14-May-2025 18:52:10.707 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\host-manager]
+14-May-2025 18:52:10.779 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:52:10.793 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\host-manager] has finished in [85] ms
+14-May-2025 18:52:10.793 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\manager]
+14-May-2025 18:52:10.889 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:52:10.893 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\manager] has finished in [100] ms
+14-May-2025 18:52:10.894 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\ROOT]
+14-May-2025 18:52:10.954 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:52:10.959 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\ROOT] has finished in [66] ms
+14-May-2025 18:52:10.970 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:52:11.028 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1674] milliseconds
+14-May-2025 18:53:42.086 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-May-2025 18:53:42.087 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:53:42.251 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-May-2025 18:53:42.280 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:53:42.292 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:56:11.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.28
+14-May-2025 18:56:11.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Aug 2 2024 15:14:43 UTC
+14-May-2025 18:56:11.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.28.0
+14-May-2025 18:56:11.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+14-May-2025 18:56:11.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+14-May-2025 18:56:11.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+14-May-2025 18:56:11.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+14-May-2025 18:56:11.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            17.0.12+8-LTS-286
+14-May-2025 18:56:11.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+14-May-2025 18:56:11.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:56:11.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:56:11.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\conf\logging.properties
+14-May-2025 18:56:11.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-May-2025 18:56:11.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-May-2025 18:56:11.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-May-2025 18:56:11.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-May-2025 18:56:11.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-May-2025 18:56:11.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-May-2025 18:56:11.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-May-2025 18:56:11.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-May-2025 18:56:11.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:56:11.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 18:56:11.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\temp
+14-May-2025 18:56:11.240 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-17\bin;E:\temp\dbhomeXE\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;E:\Gradle\gradle-7.4.2\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Pandoc\;C:\Users\Vasiliy\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\bin;;E:\Gradle\gradle-7.4.2\bin;C:\Program Files\JetBrains\DataGrip 2022.1.5\bin;;C:\Users\Vasiliy\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;;.]
+14-May-2025 18:56:11.484 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:56:11.509 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [512] milliseconds
+14-May-2025 18:56:11.582 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-May-2025 18:56:11.583 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+14-May-2025 18:56:11.615 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\api.war]
+14-May-2025 18:56:11.644 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\api] was found with a last modified time that did not match the associated WAR. It will be deleted.
+14-May-2025 18:56:12.123 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:56:12.219 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\api.war] has finished in [601] ms
+14-May-2025 18:56:12.221 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\docs]
+14-May-2025 18:56:12.286 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:56:12.290 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\docs] has finished in [69] ms
+14-May-2025 18:56:12.291 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\examples]
+14-May-2025 18:56:12.704 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:56:12.790 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\examples] has finished in [499] ms
+14-May-2025 18:56:12.791 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\host-manager]
+14-May-2025 18:56:12.865 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:56:12.877 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\host-manager] has finished in [86] ms
+14-May-2025 18:56:12.878 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\manager]
+14-May-2025 18:56:12.947 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:56:12.951 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\manager] has finished in [73] ms
+14-May-2025 18:56:12.952 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\ROOT]
+14-May-2025 18:56:13.006 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 18:56:13.009 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\ROOT] has finished in [57] ms
+14-May-2025 18:56:13.018 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-May-2025 18:56:13.077 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1568] milliseconds
+14-May-2025 19:00:01.399 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-May-2025 19:00:10.628 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-May-2025 19:01:26.131 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-May-2025 19:01:26.159 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-May-2025 19:01:26.163 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-May-2025 19:01:31.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.28
+14-May-2025 19:01:31.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Aug 2 2024 15:14:43 UTC
+14-May-2025 19:01:31.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.28.0
+14-May-2025 19:01:31.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+14-May-2025 19:01:31.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+14-May-2025 19:01:31.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+14-May-2025 19:01:31.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+14-May-2025 19:01:31.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            17.0.12+8-LTS-286
+14-May-2025 19:01:31.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+14-May-2025 19:01:31.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 19:01:31.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 19:01:31.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\conf\logging.properties
+14-May-2025 19:01:31.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-May-2025 19:01:31.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-May-2025 19:01:31.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-May-2025 19:01:31.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-May-2025 19:01:31.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-May-2025 19:01:31.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-May-2025 19:01:31.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-May-2025 19:01:31.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-May-2025 19:01:31.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 19:01:31.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28
+14-May-2025 19:01:31.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\temp
+14-May-2025 19:01:31.873 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-17\bin;E:\temp\dbhomeXE\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;E:\Gradle\gradle-7.4.2\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Pandoc\;C:\Users\Vasiliy\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\bin;;E:\Gradle\gradle-7.4.2\bin;C:\Program Files\JetBrains\DataGrip 2022.1.5\bin;;C:\Users\Vasiliy\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;;.]
+14-May-2025 19:01:32.167 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+14-May-2025 19:01:32.208 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [633] milliseconds
+14-May-2025 19:01:32.290 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-May-2025 19:01:32.290 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+14-May-2025 19:01:32.318 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\api.war]
+14-May-2025 19:01:32.885 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 19:01:32.996 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\api.war] has finished in [674] ms
+14-May-2025 19:01:32.998 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\docs]
+14-May-2025 19:01:33.068 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 19:01:33.073 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\docs] has finished in [75] ms
+14-May-2025 19:01:33.073 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\examples]
+14-May-2025 19:01:33.553 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 19:01:33.664 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\examples] has finished in [591] ms
+14-May-2025 19:01:33.665 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\host-manager]
+14-May-2025 19:01:33.739 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 19:01:33.759 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\host-manager] has finished in [93] ms
+14-May-2025 19:01:33.759 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\manager]
+14-May-2025 19:01:33.826 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 19:01:33.830 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\manager] has finished in [70] ms
+14-May-2025 19:01:33.830 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\ROOT]
+14-May-2025 19:01:33.886 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-May-2025 19:01:33.891 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Vasiliy\IdeaProjects\refactoring\2.1.ServletContainers\apache-tomcat-10.1.28\apache-tomcat-10.1.28\webapps\ROOT] has finished in [61] ms
+14-May-2025 19:01:33.902 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-May-2025 19:01:33.960 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1752] milliseconds
+14-May-2025 20:27:38.279 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-May-2025 20:27:38.383 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-May-2025 20:27:38.620 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-May-2025 20:27:38.847 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-May-2025 20:27:38.924 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
